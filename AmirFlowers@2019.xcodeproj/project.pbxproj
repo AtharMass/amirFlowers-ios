@@ -3,10 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		023F84D722F0863300992E2E /* ShoppingCart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F84D622F0863300992E2E /* ShoppingCart.swift */; };
+		023F84D922F1DEC800992E2E /* DeleteProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F84D822F1DEC800992E2E /* DeleteProduct.swift */; };
+		023F84DB22F1F84600992E2E /* favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023F84DA22F1F84600992E2E /* favorite.swift */; };
+		0262212A22E46C2100AA13D9 /* PottedDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262212922E46C2100AA13D9 /* PottedDetail.swift */; };
+		0262212C22E46C3500AA13D9 /* BalloonsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262212B22E46C3500AA13D9 /* BalloonsDetail.swift */; };
+		0262212E22E46C4B00AA13D9 /* EventDesignDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262212D22E46C4B00AA13D9 /* EventDesignDetail.swift */; };
+		0262213022E46C5C00AA13D9 /* CarDecorationsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262212F22E46C5C00AA13D9 /* CarDecorationsDetail.swift */; };
+		0262213222E46CD700AA13D9 /* GiftsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213122E46CD700AA13D9 /* GiftsDetail.swift */; };
+		0262213422E46CE800AA13D9 /* ChocolatesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213322E46CE800AA13D9 /* ChocolatesDetail.swift */; };
+		0262213622E46CFE00AA13D9 /* FruitDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213522E46CFE00AA13D9 /* FruitDetail.swift */; };
+		0262213822E46D1300AA13D9 /* ArrangementsSDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213722E46D1300AA13D9 /* ArrangementsSDetail.swift */; };
+		0262213A22E46E2F00AA13D9 /* BouquetsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213922E46E2F00AA13D9 /* BouquetsDetail.swift */; };
+		0262213C22E46E5300AA13D9 /* BridalBouquetsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0262213B22E46E5300AA13D9 /* BridalBouquetsDetail.swift */; };
+		027716A622B9307F002140AD /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716A522B9307F002140AD /* Login.swift */; };
+		027716A822B94421002140AD /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716A722B94421002140AD /* Signup.swift */; };
+		027716AA22C26E60002140AD /* AdminDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716A922C26E60002140AD /* AdminDashboard.swift */; };
+		027716AC22C27DD6002140AD /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716AB22C27DD6002140AD /* Product.swift */; };
+		027716AE22C2B09D002140AD /* InsertProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716AD22C2B09D002140AD /* InsertProduct.swift */; };
+		027716B022C4EE6C002140AD /* ViewProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027716AF22C4EE6B002140AD /* ViewProducts.swift */; };
+		0279A82922EDB6FB00AD322F /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0279A82822EDB6FB00AD322F /* Cart.swift */; };
+		0287482622E0C109004A28CC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0287482522E0C109004A28CC /* DetailViewController.swift */; };
+		02BD640D22F31C4A00AF0815 /* Promotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD640C22F31C4A00AF0815 /* Promotions.swift */; };
+		02BD640F22F31F8000AF0815 /* InsertPromotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD640E22F31F8000AF0815 /* InsertPromotions.swift */; };
+		02BD641122F3443A00AF0815 /* DeletePromotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD641022F3443A00AF0815 /* DeletePromotions.swift */; };
+		02BD641322F355CC00AF0815 /* ViewPromotions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD641222F355CC00AF0815 /* ViewPromotions.swift */; };
+		02BD641522F360E100AF0815 /* PromotionsInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BD641422F360E100AF0815 /* PromotionsInfo.swift */; };
+		02BF91E622DB2E0400817240 /* click3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BF91E322DB2E0300817240 /* click3.mp3 */; };
+		02BF91E722DB2E0400817240 /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BF91E422DB2E0400817240 /* click1.mp3 */; };
+		02BF91E822DB2E0400817240 /* click2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BF91E522DB2E0400817240 /* click2.mp3 */; };
+		02BF91EA22DB382B00817240 /* click4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BF91E922DB382B00817240 /* click4.mp3 */; };
+		02BF91EC22DB382F00817240 /* click5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 02BF91EB22DB382F00817240 /* click5.mp3 */; };
+		02BF91EE22DB611600817240 /* BridalBouquets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91ED22DB611600817240 /* BridalBouquets.swift */; };
+		02BF91F022DB613600817240 /* Bouquets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91EF22DB613600817240 /* Bouquets.swift */; };
+		02BF91F222DB615600817240 /* Arrangements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91F122DB615600817240 /* Arrangements.swift */; };
+		02BF91F422DB617500817240 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91F322DB617500817240 /* Fruit.swift */; };
+		02BF91F622DB619800817240 /* Chocolates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91F522DB619800817240 /* Chocolates.swift */; };
+		02BF91F822DB61B700817240 /* Gifts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91F722DB61B700817240 /* Gifts.swift */; };
+		02BF91FA22DB62FD00817240 /* CarDecorations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91F922DB62FD00817240 /* CarDecorations.swift */; };
+		02BF91FC22DB631A00817240 /* EventDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91FB22DB631A00817240 /* EventDesign.swift */; };
+		02BF91FE22DB634800817240 /* Balloons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91FD22DB634800817240 /* Balloons.swift */; };
+		02BF920022DB636B00817240 /* Potted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF91FF22DB636B00817240 /* Potted.swift */; };
+		02BF920222DCE39800817240 /* UserDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02BF920122DCE39700817240 /* UserDashboard.swift */; };
+		02D16A3422F1FF150089D3A4 /* FavoriteProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D16A3322F1FF150089D3A4 /* FavoriteProducts.swift */; };
 		02D2629122AFCB94006556F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2629022AFCB94006556F2 /* AppDelegate.swift */; };
 		02D2629322AFCB94006556F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D2629222AFCB94006556F2 /* ViewController.swift */; };
 		02D2629622AFCB94006556F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2629422AFCB94006556F2 /* Main.storyboard */; };
@@ -14,6 +57,12 @@
 		02D2629B22AFCB95006556F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02D2629922AFCB95006556F2 /* LaunchScreen.storyboard */; };
 		02D262A622AFCB95006556F2 /* AmirFlowers_2019Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D262A522AFCB95006556F2 /* AmirFlowers_2019Tests.swift */; };
 		02D262B122AFCB95006556F2 /* AmirFlowers_2019UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D262B022AFCB95006556F2 /* AmirFlowers_2019UITests.swift */; };
+		02D6D08922B662C500E44998 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6D08822B662C500E44998 /* CollectionViewCell.swift */; };
+		02D6D09122B6741900E44998 /* MainPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D6D09022B6741900E44998 /* MainPage.swift */; };
+		02D6D09522B694B300E44998 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02D6D09422B694B300E44998 /* GoogleService-Info.plist */; };
+		493498114EC87B1A9B3465F8 /* Pods_AmirFlowers_2019.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A5B83F14741AD08B1BDDFA9 /* Pods_AmirFlowers_2019.framework */; };
+		C5FE9C94CA47EC281A6F6515 /* Pods_AmirFlowers_2019UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C539DAABD1C9727C4E1F674 /* Pods_AmirFlowers_2019UITests.framework */; };
+		E1F1BC2CFE2011E5936A6D4A /* Pods_AmirFlowers_2019Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC280685B4CAA837D629070B /* Pods_AmirFlowers_2019Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +83,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023F84D622F0863300992E2E /* ShoppingCart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCart.swift; sourceTree = "<group>"; };
+		023F84D822F1DEC800992E2E /* DeleteProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteProduct.swift; sourceTree = "<group>"; };
+		023F84DA22F1F84600992E2E /* favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favorite.swift; sourceTree = "<group>"; };
+		0262212922E46C2100AA13D9 /* PottedDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PottedDetail.swift; sourceTree = "<group>"; };
+		0262212B22E46C3500AA13D9 /* BalloonsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalloonsDetail.swift; sourceTree = "<group>"; };
+		0262212D22E46C4B00AA13D9 /* EventDesignDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDesignDetail.swift; sourceTree = "<group>"; };
+		0262212F22E46C5C00AA13D9 /* CarDecorationsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDecorationsDetail.swift; sourceTree = "<group>"; };
+		0262213122E46CD700AA13D9 /* GiftsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiftsDetail.swift; sourceTree = "<group>"; };
+		0262213322E46CE800AA13D9 /* ChocolatesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChocolatesDetail.swift; sourceTree = "<group>"; };
+		0262213522E46CFE00AA13D9 /* FruitDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetail.swift; sourceTree = "<group>"; };
+		0262213722E46D1300AA13D9 /* ArrangementsSDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrangementsSDetail.swift; sourceTree = "<group>"; };
+		0262213922E46E2F00AA13D9 /* BouquetsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouquetsDetail.swift; sourceTree = "<group>"; };
+		0262213B22E46E5300AA13D9 /* BridalBouquetsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridalBouquetsDetail.swift; sourceTree = "<group>"; };
+		027716A522B9307F002140AD /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		027716A722B94421002140AD /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		027716A922C26E60002140AD /* AdminDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdminDashboard.swift; sourceTree = "<group>"; };
+		027716AB22C27DD6002140AD /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		027716AD22C2B09D002140AD /* InsertProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertProduct.swift; sourceTree = "<group>"; };
+		027716AF22C4EE6B002140AD /* ViewProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProducts.swift; sourceTree = "<group>"; };
+		0279A82822EDB6FB00AD322F /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		0287482522E0C109004A28CC /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		02BD640C22F31C4A00AF0815 /* Promotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Promotions.swift; sourceTree = "<group>"; };
+		02BD640E22F31F8000AF0815 /* InsertPromotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertPromotions.swift; sourceTree = "<group>"; };
+		02BD641022F3443A00AF0815 /* DeletePromotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeletePromotions.swift; sourceTree = "<group>"; };
+		02BD641222F355CC00AF0815 /* ViewPromotions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPromotions.swift; sourceTree = "<group>"; };
+		02BD641422F360E100AF0815 /* PromotionsInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionsInfo.swift; sourceTree = "<group>"; };
+		02BF91E322DB2E0300817240 /* click3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click3.mp3; path = "../../../../ios/click button/click3.mp3"; sourceTree = "<group>"; };
+		02BF91E422DB2E0400817240 /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click1.mp3; path = "../../../../ios/click button/click1.mp3"; sourceTree = "<group>"; };
+		02BF91E522DB2E0400817240 /* click2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click2.mp3; path = "../../../../ios/click button/click2.mp3"; sourceTree = "<group>"; };
+		02BF91E922DB382B00817240 /* click4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click4.mp3; path = "../../../../ios/click button/click4.mp3"; sourceTree = "<group>"; };
+		02BF91EB22DB382F00817240 /* click5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = click5.mp3; path = "../../../../ios/click button/click5.mp3"; sourceTree = "<group>"; };
+		02BF91ED22DB611600817240 /* BridalBouquets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridalBouquets.swift; sourceTree = "<group>"; };
+		02BF91EF22DB613600817240 /* Bouquets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bouquets.swift; sourceTree = "<group>"; };
+		02BF91F122DB615600817240 /* Arrangements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrangements.swift; sourceTree = "<group>"; };
+		02BF91F322DB617500817240 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		02BF91F522DB619800817240 /* Chocolates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chocolates.swift; sourceTree = "<group>"; };
+		02BF91F722DB61B700817240 /* Gifts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gifts.swift; sourceTree = "<group>"; };
+		02BF91F922DB62FD00817240 /* CarDecorations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDecorations.swift; sourceTree = "<group>"; };
+		02BF91FB22DB631A00817240 /* EventDesign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDesign.swift; sourceTree = "<group>"; };
+		02BF91FD22DB634800817240 /* Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Balloons.swift; sourceTree = "<group>"; };
+		02BF91FF22DB636B00817240 /* Potted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Potted.swift; sourceTree = "<group>"; };
+		02BF920122DCE39700817240 /* UserDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDashboard.swift; sourceTree = "<group>"; };
+		02D16A3322F1FF150089D3A4 /* FavoriteProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteProducts.swift; sourceTree = "<group>"; };
 		02D2628D22AFCB94006556F2 /* AmirFlowers@2019.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AmirFlowers@2019.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D2629022AFCB94006556F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02D2629222AFCB94006556F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +139,18 @@
 		02D262AC22AFCB95006556F2 /* AmirFlowers@2019UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AmirFlowers@2019UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02D262B022AFCB95006556F2 /* AmirFlowers_2019UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmirFlowers_2019UITests.swift; sourceTree = "<group>"; };
 		02D262B222AFCB95006556F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02D6D08822B662C500E44998 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		02D6D09022B6741900E44998 /* MainPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPage.swift; sourceTree = "<group>"; };
+		02D6D09422B694B300E44998 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		06177194A3CB3AFCE12EAE9B /* Pods-AmirFlowers@2019.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019.release.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019/Pods-AmirFlowers@2019.release.xcconfig"; sourceTree = "<group>"; };
+		1823117062ADB5EAC3A97BF3 /* Pods-AmirFlowers@2019UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019UITests.debug.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019UITests/Pods-AmirFlowers@2019UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5768BB4BAA0A08023D110E32 /* Pods-AmirFlowers@2019UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019UITests.release.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019UITests/Pods-AmirFlowers@2019UITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E91E556D2A773693BA3002A /* Pods-AmirFlowers@2019.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019.debug.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019/Pods-AmirFlowers@2019.debug.xcconfig"; sourceTree = "<group>"; };
+		7C539DAABD1C9727C4E1F674 /* Pods_AmirFlowers_2019UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmirFlowers_2019UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A5B83F14741AD08B1BDDFA9 /* Pods_AmirFlowers_2019.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmirFlowers_2019.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34316B83022EF5B47938E98 /* Pods-AmirFlowers@2019Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019Tests.debug.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019Tests/Pods-AmirFlowers@2019Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BDB3468BC081D76B48325643 /* Pods-AmirFlowers@2019Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmirFlowers@2019Tests.release.xcconfig"; path = "Target Support Files/Pods-AmirFlowers@2019Tests/Pods-AmirFlowers@2019Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC280685B4CAA837D629070B /* Pods_AmirFlowers_2019Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmirFlowers_2019Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +158,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493498114EC87B1A9B3465F8 /* Pods_AmirFlowers_2019.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +166,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F1BC2CFE2011E5936A6D4A /* Pods_AmirFlowers_2019Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +174,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FE9C94CA47EC281A6F6515 /* Pods_AmirFlowers_2019UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +188,8 @@
 				02D262A422AFCB95006556F2 /* AmirFlowers@2019Tests */,
 				02D262AF22AFCB95006556F2 /* AmirFlowers@2019UITests */,
 				02D2628E22AFCB94006556F2 /* Products */,
+				161655B30C4A6112A93ED1B7 /* Pods */,
+				39FE399EF22EF04FF03D689D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +206,55 @@
 		02D2628F22AFCB94006556F2 /* AmirFlowers@2019 */ = {
 			isa = PBXGroup;
 			children = (
+				02BF91E422DB2E0400817240 /* click1.mp3 */,
+				02BF91E522DB2E0400817240 /* click2.mp3 */,
+				02BF91E322DB2E0300817240 /* click3.mp3 */,
+				02BF91E922DB382B00817240 /* click4.mp3 */,
+				02BF91EB22DB382F00817240 /* click5.mp3 */,
 				02D2629022AFCB94006556F2 /* AppDelegate.swift */,
 				02D2629222AFCB94006556F2 /* ViewController.swift */,
 				02D2629422AFCB94006556F2 /* Main.storyboard */,
+				0287482522E0C109004A28CC /* DetailViewController.swift */,
+				02BF91FF22DB636B00817240 /* Potted.swift */,
+				0262212922E46C2100AA13D9 /* PottedDetail.swift */,
+				02BF91FD22DB634800817240 /* Balloons.swift */,
+				0262212B22E46C3500AA13D9 /* BalloonsDetail.swift */,
+				02BF91FB22DB631A00817240 /* EventDesign.swift */,
+				0262212D22E46C4B00AA13D9 /* EventDesignDetail.swift */,
+				02BF91F922DB62FD00817240 /* CarDecorations.swift */,
+				0262212F22E46C5C00AA13D9 /* CarDecorationsDetail.swift */,
+				02BF91F722DB61B700817240 /* Gifts.swift */,
+				0262213122E46CD700AA13D9 /* GiftsDetail.swift */,
+				02BF91F522DB619800817240 /* Chocolates.swift */,
+				0262213322E46CE800AA13D9 /* ChocolatesDetail.swift */,
+				02BF91F322DB617500817240 /* Fruit.swift */,
+				0262213522E46CFE00AA13D9 /* FruitDetail.swift */,
+				02BF91F122DB615600817240 /* Arrangements.swift */,
+				0262213722E46D1300AA13D9 /* ArrangementsSDetail.swift */,
+				02BF91EF22DB613600817240 /* Bouquets.swift */,
+				0262213922E46E2F00AA13D9 /* BouquetsDetail.swift */,
+				02BF91ED22DB611600817240 /* BridalBouquets.swift */,
+				0262213B22E46E5300AA13D9 /* BridalBouquetsDetail.swift */,
+				027716AF22C4EE6B002140AD /* ViewProducts.swift */,
+				027716AB22C27DD6002140AD /* Product.swift */,
+				0279A82822EDB6FB00AD322F /* Cart.swift */,
+				02BD640C22F31C4A00AF0815 /* Promotions.swift */,
+				02D16A3322F1FF150089D3A4 /* FavoriteProducts.swift */,
+				023F84D622F0863300992E2E /* ShoppingCart.swift */,
+				027716AD22C2B09D002140AD /* InsertProduct.swift */,
+				02BD640E22F31F8000AF0815 /* InsertPromotions.swift */,
+				023F84D822F1DEC800992E2E /* DeleteProduct.swift */,
+				02BD641022F3443A00AF0815 /* DeletePromotions.swift */,
+				02BD641222F355CC00AF0815 /* ViewPromotions.swift */,
+				02BD641422F360E100AF0815 /* PromotionsInfo.swift */,
+				023F84DA22F1F84600992E2E /* favorite.swift */,
+				027716A922C26E60002140AD /* AdminDashboard.swift */,
+				02BF920122DCE39700817240 /* UserDashboard.swift */,
+				027716A722B94421002140AD /* Signup.swift */,
+				027716A522B9307F002140AD /* Login.swift */,
+				02D6D09022B6741900E44998 /* MainPage.swift */,
+				02D6D08822B662C500E44998 /* CollectionViewCell.swift */,
+				02D6D09422B694B300E44998 /* GoogleService-Info.plist */,
 				02D2629722AFCB95006556F2 /* Assets.xcassets */,
 				02D2629922AFCB95006556F2 /* LaunchScreen.storyboard */,
 				02D2629C22AFCB95006556F2 /* Info.plist */,
@@ -125,6 +280,29 @@
 			path = "AmirFlowers@2019UITests";
 			sourceTree = "<group>";
 		};
+		161655B30C4A6112A93ED1B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E91E556D2A773693BA3002A /* Pods-AmirFlowers@2019.debug.xcconfig */,
+				06177194A3CB3AFCE12EAE9B /* Pods-AmirFlowers@2019.release.xcconfig */,
+				A34316B83022EF5B47938E98 /* Pods-AmirFlowers@2019Tests.debug.xcconfig */,
+				BDB3468BC081D76B48325643 /* Pods-AmirFlowers@2019Tests.release.xcconfig */,
+				1823117062ADB5EAC3A97BF3 /* Pods-AmirFlowers@2019UITests.debug.xcconfig */,
+				5768BB4BAA0A08023D110E32 /* Pods-AmirFlowers@2019UITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		39FE399EF22EF04FF03D689D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A5B83F14741AD08B1BDDFA9 /* Pods_AmirFlowers_2019.framework */,
+				FC280685B4CAA837D629070B /* Pods_AmirFlowers_2019Tests.framework */,
+				7C539DAABD1C9727C4E1F674 /* Pods_AmirFlowers_2019UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +310,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02D262B522AFCB95006556F2 /* Build configuration list for PBXNativeTarget "AmirFlowers@2019" */;
 			buildPhases = (
+				D899FB8B1B63456932749BC5 /* [CP] Check Pods Manifest.lock */,
 				02D2628922AFCB94006556F2 /* Sources */,
 				02D2628A22AFCB94006556F2 /* Frameworks */,
 				02D2628B22AFCB94006556F2 /* Resources */,
+				F2379A07DD13910F144B5797 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +329,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02D262B822AFCB95006556F2 /* Build configuration list for PBXNativeTarget "AmirFlowers@2019Tests" */;
 			buildPhases = (
+				460463E4A41818E1F78C2CA2 /* [CP] Check Pods Manifest.lock */,
 				02D2629D22AFCB95006556F2 /* Sources */,
 				02D2629E22AFCB95006556F2 /* Frameworks */,
 				02D2629F22AFCB95006556F2 /* Resources */,
@@ -167,6 +348,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 02D262BB22AFCB95006556F2 /* Build configuration list for PBXNativeTarget "AmirFlowers@2019UITests" */;
 			buildPhases = (
+				88761F88217B9C315E9354F3 /* [CP] Check Pods Manifest.lock */,
 				02D262A822AFCB95006556F2 /* Sources */,
 				02D262A922AFCB95006556F2 /* Frameworks */,
 				02D262AA22AFCB95006556F2 /* Resources */,
@@ -230,8 +412,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D2629B22AFCB95006556F2 /* LaunchScreen.storyboard in Resources */,
+				02D6D09522B694B300E44998 /* GoogleService-Info.plist in Resources */,
+				02BF91EA22DB382B00817240 /* click4.mp3 in Resources */,
 				02D2629822AFCB95006556F2 /* Assets.xcassets in Resources */,
+				02BF91E722DB2E0400817240 /* click1.mp3 in Resources */,
+				02BF91EC22DB382F00817240 /* click5.mp3 in Resources */,
 				02D2629622AFCB94006556F2 /* Main.storyboard in Resources */,
+				02BF91E622DB2E0400817240 /* click3.mp3 in Resources */,
+				02BF91E822DB2E0400817240 /* click2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +439,139 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		460463E4A41818E1F78C2CA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmirFlowers@2019Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88761F88217B9C315E9354F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmirFlowers@2019UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D899FB8B1B63456932749BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmirFlowers@2019-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2379A07DD13910F144B5797 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmirFlowers@2019/Pods-AmirFlowers@2019-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AmirFlowers@2019/Pods-AmirFlowers@2019-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AmirFlowers@2019/Pods-AmirFlowers@2019-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		02D2628922AFCB94006556F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02BF920222DCE39800817240 /* UserDashboard.swift in Sources */,
 				02D2629322AFCB94006556F2 /* ViewController.swift in Sources */,
+				02BF91FA22DB62FD00817240 /* CarDecorations.swift in Sources */,
+				02BD640F22F31F8000AF0815 /* InsertPromotions.swift in Sources */,
+				02D16A3422F1FF150089D3A4 /* FavoriteProducts.swift in Sources */,
+				027716AC22C27DD6002140AD /* Product.swift in Sources */,
+				02BD641122F3443A00AF0815 /* DeletePromotions.swift in Sources */,
+				02BD640D22F31C4A00AF0815 /* Promotions.swift in Sources */,
+				0279A82922EDB6FB00AD322F /* Cart.swift in Sources */,
+				027716AE22C2B09D002140AD /* InsertProduct.swift in Sources */,
+				0262213422E46CE800AA13D9 /* ChocolatesDetail.swift in Sources */,
+				02BF91FE22DB634800817240 /* Balloons.swift in Sources */,
+				0262213622E46CFE00AA13D9 /* FruitDetail.swift in Sources */,
+				02BD641522F360E100AF0815 /* PromotionsInfo.swift in Sources */,
+				02BF91F822DB61B700817240 /* Gifts.swift in Sources */,
+				0262213822E46D1300AA13D9 /* ArrangementsSDetail.swift in Sources */,
+				027716A622B9307F002140AD /* Login.swift in Sources */,
+				02BF91F422DB617500817240 /* Fruit.swift in Sources */,
+				023F84D722F0863300992E2E /* ShoppingCart.swift in Sources */,
+				0262212A22E46C2100AA13D9 /* PottedDetail.swift in Sources */,
+				0262212E22E46C4B00AA13D9 /* EventDesignDetail.swift in Sources */,
+				0262213C22E46E5300AA13D9 /* BridalBouquetsDetail.swift in Sources */,
+				023F84D922F1DEC800992E2E /* DeleteProduct.swift in Sources */,
 				02D2629122AFCB94006556F2 /* AppDelegate.swift in Sources */,
+				0262213A22E46E2F00AA13D9 /* BouquetsDetail.swift in Sources */,
+				02BF91FC22DB631A00817240 /* EventDesign.swift in Sources */,
+				0287482622E0C109004A28CC /* DetailViewController.swift in Sources */,
+				02BF91F022DB613600817240 /* Bouquets.swift in Sources */,
+				02BF91EE22DB611600817240 /* BridalBouquets.swift in Sources */,
+				02D6D08922B662C500E44998 /* CollectionViewCell.swift in Sources */,
+				023F84DB22F1F84600992E2E /* favorite.swift in Sources */,
+				02D6D09122B6741900E44998 /* MainPage.swift in Sources */,
+				0262213222E46CD700AA13D9 /* GiftsDetail.swift in Sources */,
+				02BF91F622DB619800817240 /* Chocolates.swift in Sources */,
+				02BF920022DB636B00817240 /* Potted.swift in Sources */,
+				027716AA22C26E60002140AD /* AdminDashboard.swift in Sources */,
+				0262212C22E46C3500AA13D9 /* BalloonsDetail.swift in Sources */,
+				02BF91F222DB615600817240 /* Arrangements.swift in Sources */,
+				0262213022E46C5C00AA13D9 /* CarDecorationsDetail.swift in Sources */,
+				027716B022C4EE6C002140AD /* ViewProducts.swift in Sources */,
+				02BD641322F355CC00AF0815 /* ViewPromotions.swift in Sources */,
+				027716A822B94421002140AD /* Signup.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +744,7 @@
 		};
 		02D262B622AFCB95006556F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E91E556D2A773693BA3002A /* Pods-AmirFlowers@2019.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +763,7 @@
 		};
 		02D262B722AFCB95006556F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06177194A3CB3AFCE12EAE9B /* Pods-AmirFlowers@2019.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +782,7 @@
 		};
 		02D262B922AFCB95006556F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A34316B83022EF5B47938E98 /* Pods-AmirFlowers@2019Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +804,7 @@
 		};
 		02D262BA22AFCB95006556F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDB3468BC081D76B48325643 /* Pods-AmirFlowers@2019Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +826,7 @@
 		};
 		02D262BC22AFCB95006556F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823117062ADB5EAC3A97BF3 /* Pods-AmirFlowers@2019UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +847,7 @@
 		};
 		02D262BD22AFCB95006556F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768BB4BAA0A08023D110E32 /* Pods-AmirFlowers@2019UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

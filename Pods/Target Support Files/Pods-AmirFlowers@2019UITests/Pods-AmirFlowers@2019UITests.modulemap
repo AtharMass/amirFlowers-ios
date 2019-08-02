@@ -1,0 +1,6 @@
+framework module Pods_AmirFlowers_2019UITests {
+  umbrella header "Pods-AmirFlowers@2019UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
